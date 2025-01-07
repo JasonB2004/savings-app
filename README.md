@@ -52,49 +52,12 @@
 - **User Interface Design**: Usable, intuitive, and visually appealing UI.
 - **Code and Design Quality**: Clear, maintainable code with adherence to best practices.
 
-## Evaluation
-
-### Formative Assessment
-- **Timeline**: Week 9 code commit; marking in Week 10.
-- **Purpose**: Early feedback on code quality, UI, and functional features for improvement.
-- **Weight**: 15% of the final grade.
-- **Criteria**: Functional requirements (12 marks) and non-functional requirements (3 marks).
-
-### Summative Assessment
-- **Timeline**: Final marking at the course end.
-- **Requirements**: Fully developed app with a ~5-minute individual demo video.
-- **Weight**: 30% of the final grade.
-  - **Mobile Application**: 25% (group grade)
-  - **Individual Demo**: 5%
-- **Criteria**: Functional requirements (5 marks) and non-functional requirements (20 marks).
-
-## Team Members & Responsibilities
-
-- **Jason Badwal**:
-  - User sign-in/sign-up
-  - Firebase database
-  - Firebase Authentication
-  - Notifications
-- **Arujan Srimohan**:
-  - Developed data classes
-  - UI and back-end integration with data classes
-  - Metrics Page
-  - Data Visualization   
-- **Elaine Nankanja**:
-  - Firebase setup for user auth
-  - User profile storage
-  - Reset password
-  - UI
-  - Google sign-in 
-- **Abdul Rahim Mohsin**:
-  - Designed mockup layout
-  - Developed UI layout for modern look
-  - Smooth navigation between screens
-  - Snack bars
-  - Intuitive UI integrations
-  - Implemented currency API on homepage
-- **Rania Rejdal**:
-  - Collaborated on mockup design
-  - Basic page setup
-  - Data classes development
-  - UI and data classes integration
+### Technologies Used:
+- **Android Studio**: Primary Integrated Development Environment (IDE) for development and testing.
+- **Flutter/Dart**: Framework for building a seamless and responsive user interface, incorporating Material Design components like dialogs, pickers, and snackbars.
+- **Firebase Authentication**: Secure sign-in/sign-up, password resets, and Google sign-in functionality.
+- **Firebase Realtime Database**: Backend service for storing LockBox and savings data.
+- **Fl_chart (or equivalent)**: Charting library for interactive data visualization, displaying savings growth over time.
+- **Currency API Integration**: Real-time currency updates on the homepage using HTTP requests.
+- **Firebase Cloud Messaging**: Notification system for reminders and milestone alerts.
+- **Local Notifications**: Additional reminders to ensure users stay informed about their savings progress.
